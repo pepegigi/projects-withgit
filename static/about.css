@@ -1,0 +1,163 @@
+.about-section h2{
+    text-align: center;
+    font-size: 45px;
+    color: #000000;
+    margin-top: 20px;
+}
+.slideshow-container {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.fade {
+    animation: fade 1.5s ease-in-out;
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.about1 h3{
+    color: #1d1b1b;
+    float: right;
+    font-size: 30px;
+    margin-right: 220px;
+    display: block;
+}
+.about1 p{
+    color: #4e4242;
+    font-size: 20px;
+    float: right;
+    margin-right: 80px;
+    display:block;
+}
+.about{
+    margin-bottom: 150px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 450px;
+    margin-left: 70px;
+}
+
+.skill {
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.skill-name1{
+    color: #ff0000;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+ 
+}
+.skill-name2{
+    color: #008000;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+ 
+}
+.skill-name3{
+    color: #800080;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+ 
+}
+
+
+.progress-bar {
+    width: 250px;
+    background-color: #8b8383;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.progress-tooltip {
+    position: absolute;
+    top: -30px;
+    color: rgb(63, 60, 60);
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.progress.typography {
+    background-color: #f48c84;
+    width: 86%;
+}
+
+.progress.design {
+    background-color: #008000;
+    width: 50%;
+}
+
+.progress.development {
+    background-color: #8c70b8;
+    width: 86%;
+}
+
+.progress.typography .progress-tooltip {
+    background-color: #f48c84;
+    left: 86%;
+}
+
+.progress.design .progress-tooltip {
+    background-color: #008000;
+    left: 86%;
+}
+
+.progress.development .progress-tooltip {
+    background-color: #8c70b8;
+    left: 50%;
+}
+.faq-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f5f5dc;
+}
+.faq-container h1 {
+    text-align: center;
+    color: rgb(48, 45, 45);
+    font-size: 45px;
+}
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.faq-item {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.faq-item h2 {
+    color: #333;
+    font-size: 18px;
+}
+.faq-item p {
+    color: #666;
+    font-size: 14px;
+}
+

@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+<body class="container" style="color: pink;">
+    <h2>Message Sent Successfully!</h2>
+    <p>Thank you, {{ firstname }}. Your message has been sent.</p>
+    <a href="{% url 'home' %}">Go back to Home</a>
+</body>
+</html>

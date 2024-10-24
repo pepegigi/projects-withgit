@@ -1,0 +1,103 @@
+.contact{
+    background-color: #fafafa;
+}
+.contact h2{
+    text-align: center;
+    font-size: 45px;
+    color: #161515;
+    font-style:oblique;
+}
+.info{
+    display: block;
+}
+.address{
+    float: left;
+    margin-left: 280px;
+}
+.address p{
+    color:#7e7c7c ;
+    font-size: 20px;
+}
+.number{
+    float: left;
+    margin-left: 160px;
+}
+.number p{
+    color: #7e7c7c;
+    font-size: 20px;
+}
+.email{
+    float: left;
+    margin-left: 150px;
+}
+.email a{
+    font-size: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 1200px;
+    margin-left: 350px;
+}
+
+.container h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+.form-row .form-group{
+    width: 550px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-group label {
+    float: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #000000;
+}
+
+textarea {
+    resize: none;
+}
+
+.submit-btn {
+    background-color: #363434;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}

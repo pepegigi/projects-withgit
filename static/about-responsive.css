@@ -1,0 +1,96 @@
+@media (max-width: 1024px) {
+    .about-section h2 {
+        font-size: 35px;
+    }
+    .about1 h3 {
+        font-size: 25px;
+    }
+    .about1 p {
+        font-size: 18px;
+    }
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+    .skill {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-section h2 {
+        font-size: 28px;
+    }
+    .about1 h3, .about1 p {
+        text-align: center;
+        margin-right: 0;
+    }
+    .slideshow-container {
+        position: relative;
+        max-width: 300px;
+        margin: auto;
+        overflow: hidden;
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .about1 h3{
+        color: #1d1b1b;
+        float: right;
+        font-size: 30px;
+        margin-right: 60px;
+        display: block;
+    }
+    .container {
+        width: 50px;
+
+    }
+    .progress-bar {
+        width: 50px;
+        background-color: #8b8383;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+    }
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-section h2 {
+        font-size: 25px;
+    }
+    .about1 h3, .about1 p {
+        font-size: 18px;
+    }
+    .slideshow-container {
+        position: relative;
+        max-width: 300px;
+        margin: auto;
+        overflow: hidden;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    .about1 h3{
+        color: #1d1b1b;
+        float: right;
+        font-size: 30px;
+        margin-right: 40px;
+        display: block;
+    }
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .skill {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .faq-container h1 {
+        font-size: 30px;
+    }
+}

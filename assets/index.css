@@ -1,0 +1,79 @@
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.home {
+    background-image: url(images/background.img4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+nav {
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    z-index: 1;
+    min-width: 160px;
+    font-size: 15px;
+}
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li a {
+    display: block;
+    padding: 10px;
+}
+.mask h2{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 200px;
+}
+.mask p{
+    text-align: center;
+    font-size: 35px;
+}
+
+

@@ -1,0 +1,98 @@
+.blog1{
+    margin-bottom: 100px;
+    background-color: #f8f6f6;
+}
+.blog1 h2{
+    text-align: center;
+    color: #0d0d0e;
+    font-style: oblique;
+    font-size: 45px;
+}
+.blog1 p{
+    color: #443c3c;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+.blog h3{
+    text-align: center;
+    color: #0e0e0f;
+    font-style: oblique;
+    font-size: 45px;
+}
+.icon-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 20px;
+}
+.icon1 h4{
+    color: #3c3cac;
+    text-align: center;
+}
+.icon1 p{
+    color: #474646;
+    font-size: 15px;
+}
+.icon2 h4{
+    color: #3c3cac;
+    text-align: center;
+}
+.icon2 p{
+    color: #474646;
+    font-size: 15px;
+}
+.icon3 h4{
+    color: #3c3cac;
+    text-align: center;
+}
+.icon3 p{
+    color: #474646;
+    font-size: 15px;
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    margin-bottom: auto;
+}
+.image-container h2{
+     color: #0d0d0e;
+     font-size: 45px;
+     display: block;
+}
+.card {
+    background-color: white;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.card .meta {
+    color: #777;
+    font-size: 14px;
+}
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+.card a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.card a:hover {
+    text-decoration: underline;
+}

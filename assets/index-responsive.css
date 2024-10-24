@@ -1,0 +1,68 @@
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2em;
+    }
+    nav ul {
+        justify-content: space-between;
+    }
+    nav a {
+        font-size: 18px;
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        width: 100px;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    nav ul.show {
+        display: flex;
+    }
+    nav a {
+        font-size: 18px;
+        text-align: left;
+        padding: 10px;
+    }
+    nav .menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 25px;
+        color: white;
+    }
+    nav a:hover {
+        color: #6a0be7;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    nav a {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .mask h2 {
+        font-size: 35px;
+        margin-top: 300px;
+    }
+    .mask p {
+        font-size: 25px;
+    }
+}
+
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+}
