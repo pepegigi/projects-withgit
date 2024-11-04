@@ -7,9 +7,11 @@
     <title>Success</title>
     <link rel="stylesheet" href="{% static 'index.css' %}">
 </head>
-<body class="container" style="background-color: pink;border-radius:10px;border:2px,black;margin-left:500px;margin-top:250px;padding:10px;">
-    <h2 style="color:black;">Message Sent Successfully!</h2>
-    <p style="color:black;margin-left:20px;">Thank you, {{ firstname }}. Your message has been sent.</p>
-    <a href="{% url 'home' %}" margin-left:20px;>Go back to Home</a>
+<body>
+    <div class="container" style="background-color: pink;border-radius:10px;border:2px,black;margin-left:500px;margin-top:250px;padding:10px;>
+         <h2 style="color:black;">Message Sent Successfully!</h2>
+         <p style="color:black;margin-left:20px;">Thank you, {{ firstname }}. Your message has been sent.</p>
+         <a href="{% url 'home' %}" margin-left:20px;>Go back to Home</a>
+    </div>
 </body>
 </html>
